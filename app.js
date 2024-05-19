@@ -2,14 +2,6 @@ let numeroMaximo = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
-// ESSA PARTE ABAIXO FOI FEITA E FORMA DIFERENTE QUE SE PODE VERR APÓS A LINHA 13 ATÉ 20
-
-// let titulo = document.querySelector("h1");
-// titulo.innerHTML = "Jogo do nº Secreto";
-
-// let paragrafo = document.querySelector("p");
-// paragrafo.innerHTML = `Escolha um número entre 1 e ${numeroSecreto}`;
-
 function exibirTextoNaTela(tag, texto){
 let camnpo = document.querySelector(tag);
 camnpo.innerHTML = texto;
